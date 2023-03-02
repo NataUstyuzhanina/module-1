@@ -71,6 +71,7 @@ h2 {
 }
 
 .container2 a {
+  margin-bottom: 150px;
   display: block;
   width: 255px;
   height: 66px;
@@ -83,35 +84,31 @@ h2 {
   background-color: rgba(173, 24, 24, 1);
   border-radius: 5px;
 }
+
 .container3 {
   margin-left: 125px;
   margin-top: 150px;
-  box-sizing: border-box;
-  width: 1150px;
-  height: 2122px;
 }
-.container3 p {
-  margin-top: 15px;
+.projects__image {
   margin-bottom: 15px;
-  height: 41px;
-  width: 542px;
-  left: 125px;
-  top: 2116px;
+}
+.projects__name {
+  margin-bottom: 15px;
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
   letter-spacing: -0.03em;
-  text-align: left;
 }
-.container3 a {
+
+.projects a {
+  margin-bottom: 90px;
+  display: block;
   height: 27px;
   width: 127px;
-  border-radius: nullpx;
-  color: #ad1818;
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: -0.03em;
-  text-align: left;
+  color: #ad1818;
   text-decoration: none;
 }
