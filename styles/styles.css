@@ -112,3 +112,21 @@ h2 {
   color: #ad1818;
   text-decoration: none;
 }
+.view-all-projects {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 150px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  height: 153px;
+  width: 1150px;
+  border-radius: 5px;
+  border: 1px solid #ad1818;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-decoration: none;
+  color: #ad1818;
+}
