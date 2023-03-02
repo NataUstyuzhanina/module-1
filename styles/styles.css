@@ -88,6 +88,7 @@ h2 {
 .container3 {
   margin-left: 125px;
   margin-top: 150px;
+  width: 1150px;
 }
 .projects__image {
   margin-bottom: 15px;
@@ -119,7 +120,7 @@ h2 {
   padding-top: 56px;
   padding-bottom: 56px;
   height: 153px;
-  width: 1150px;
+  width: 100%;
   border-radius: 5px;
   border: 1px solid #ad1818;
   font-size: 30px;
