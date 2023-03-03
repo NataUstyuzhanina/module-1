@@ -132,7 +132,7 @@ h2 {
   text-decoration: none;
   color: #ad1818;
 }
-a:hover {
+.view-all a:hover {
   color: #ffffff;
   background-color: #ad1818;
 }
