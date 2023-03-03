@@ -57,6 +57,7 @@ h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 24.59px;
+  letter-spacing: -0.03em;
 }
 
 .text1 p {
@@ -130,4 +131,18 @@ h2 {
   text-align: center;
   text-decoration: none;
   color: #ad1818;
+}
+a:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+.container4 {
+  margin: 0;
+  width: 1400px;
+  height: 1844px;
+  background-color: #121212;
+}
+.container4 h2 {
+  margin-bottom: 34px;
+  color: #ffffff;
 }
