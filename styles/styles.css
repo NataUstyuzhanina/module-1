@@ -62,6 +62,7 @@ h2 {
 
 .text p {
   margin-bottom: 30px;
+  margin-left: 3px;
   text-align: left;
   letter-spacing: -0.03em;
   width: 1048px;
