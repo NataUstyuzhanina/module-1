@@ -3,13 +3,13 @@ body {
   width: 1400px;
   margin: 0 auto;
   background: #ffffff;
+  box-sizing: border-box;
 }
 
 .container-we {
   width: 1150px;
-  height: 650px;
+  height: 646px;
   margin-left: 125px;
-  box-sizing: border-box;
   margin-bottom: 150px;
 }
 h1 {
@@ -24,35 +24,35 @@ h1 {
 }
 
 .interior {
+  position: relative;
   width: 1150px;
   height: 500px;
   background-image: url(../resources/interior1.png);
   background-size: contain;
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 150px;
 }
 
 .interior p {
-  width: 450px;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
   height: 81px;
   font-size: 20px;
   line-height: 27.32px;
   font-weight: 400;
-  padding-top: 379px;
-  padding-left: 40px;
-  padding-right: 700px;
+  letter-spacing: -0.03em;
 }
 
 .container-about {
   width: 1051px;
   height: 518px;
   margin-left: 125px;
-  box-sizing: border-box;
 }
 
 h2 {
   margin-bottom: 30px;
-  width: 60px;
+  width: 51px;
   height: 25px;
   font-weight: 400;
   font-size: 18px;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .text p {
-  margin-bottom: 31px;
+  margin-bottom: 30px;
   text-align: left;
   letter-spacing: -0.03em;
   width: 1048px;
@@ -73,17 +73,20 @@ h2 {
 
 .container-about a {
   margin-bottom: 150px;
+  padding: 20px 40px;
+  box-sizing: border-box;
   display: block;
   width: 255px;
-  height: 66px;
+  height: 67px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 66px;
+  line-height: 27.32px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
   background-color: rgba(173, 24, 24, 1);
   border-radius: 5px;
+  letter-spacing: -0.03em;
 }
 
 .container-projects {
@@ -94,7 +97,7 @@ h2 {
 .project__image {
   margin-bottom: 15px;
 }
-.project__name {
+.project__title {
   margin-bottom: 15px;
   font-size: 30px;
   font-weight: 400;
@@ -136,7 +139,7 @@ h2 {
   color: #ffffff;
   background-color: #ad1818;
 }
-.section {
+.section-servises {
   margin: 0;
   width: 1400px;
   height: 1844px;
