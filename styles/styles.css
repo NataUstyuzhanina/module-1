@@ -4,16 +4,21 @@ html {
 body {
   margin: 0 auto;
   font-family: "Manrope", sans-serif;
+  font-weight: 400;
   min-width: 1400px;
   background: #f5f5f5;
+  letter-spacing: -0.03em;
 }
-
+h1,
+.aboutus a {
+  letter-spacing: -0.03em;
+}
 .container {
+  margin: 0 auto;
   width: 1400px;
   padding-left: 125px;
-  background: #ffffff;
+  padding-bottom: 150px;
   box-sizing: border-box;
-  letter-spacing: -0.03em;
 }
 .nav-container {
   height: 26px;
@@ -34,7 +39,6 @@ body {
 .nav__link {
   margin-left: 60px;
   font-size: 18px;
-  font-weight: 400;
   line-height: 25px;
   color: #121212;
   text-decoration: none;
@@ -52,9 +56,7 @@ h1 {
   height: 120px;
   font-size: 60px;
   line-height: 60px;
-  font-weight: 400;
   color: rgba(18, 18, 18, 1);
-  letter-spacing: -0.03em;
 }
 
 .interior {
@@ -75,30 +77,24 @@ h1 {
   height: 81px;
   font-size: 20px;
   line-height: 27.32px;
-  font-weight: 400;
-  letter-spacing: -0.03em;
 }
 
 h2 {
   margin-bottom: 30px;
   width: 51px;
   height: 25px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 24.59px;
-  letter-spacing: -0.03em;
 }
 
 .text p {
   margin-bottom: 30px;
   margin-left: 3px;
-  text-align: left;
   letter-spacing: -0.03em;
   width: 1048px;
   height: 366px;
   line-height: 61.47px;
   font-size: 45px;
-  font-weight: 400;
 }
 
 .aboutus a {
@@ -107,7 +103,6 @@ h2 {
   display: block;
   width: 255px;
   height: 67px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 27.32px;
   text-align: center;
@@ -115,7 +110,6 @@ h2 {
   text-decoration: none;
   background-color: rgba(173, 24, 24, 1);
   border-radius: 5px;
-  letter-spacing: -0.03em;
 }
 
 .project__image {
@@ -124,9 +118,7 @@ h2 {
 .project__title {
   margin-bottom: 15px;
   font-size: 30px;
-  font-weight: 400;
   line-height: 41px;
-  letter-spacing: -0.03em;
 }
 
 .project a {
@@ -135,7 +127,6 @@ h2 {
   height: 27px;
   width: 127px;
   font-size: 20px;
-  font-weight: 400;
   line-height: 27px;
   letter-spacing: -0.03em;
   color: #ad1818;
@@ -143,15 +134,12 @@ h2 {
 }
 .view-all-projects {
   display: block;
-  margin-bottom: 150px;
   height: 153px;
   width: 1150px;
   border-radius: 5px;
   border: 1px solid #ad1818;
   font-size: 30px;
-  font-weight: 400;
   line-height: 153px;
-  letter-spacing: -0.03em;
   text-align: center;
   text-decoration: none;
   color: #ad1818;
@@ -166,7 +154,10 @@ h2 {
   padding-bottom: 150px;
   background: #121212;
 }
-
+.service-center {
+  width: 1275px;
+  margin: 0 auto;
+}
 .section-black h2 {
   margin-bottom: 34px;
   color: #ffffff;
@@ -176,71 +167,102 @@ h2 {
   margin-top: 15px;
   height: 41px;
   font-size: 30px;
-  font-weight: 400;
   line-height: 41px;
-  letter-spacing: -0.03em;
   text-align: left;
   color: #ffffff;
 }
+.servise__name:last-child {
+  margin-bottom: 0;
+}
 .example {
-  position: relative;
   background-image: url(../resources/bedroom.png);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 717px;
 }
+.example-center {
+  margin: 0 auto;
+  width: 1150px;
+  position: relative;
+}
 .example p {
   position: absolute;
-  left: 125px;
-  bottom: 60px;
+  top: 575px;
   height: 82px;
   width: 443px;
   font-size: 30px;
-  font-weight: 400;
   line-height: 41px;
-  text-align: left;
   color: #ffffff;
 }
 .contacts {
-  margin-top: 186px;
-  margin-left: 124px;
-  margin-bottom: 150px;
-  height: 217px;
+  padding-top: 150px;
+  padding-left: 124px;
+  height: 553px;
 }
-.contacts h3 {
+.contacts-center {
+  margin: 0 auto;
+  width: 1150px;
   position: relative;
+}
+.contacts h2 {
   padding-bottom: 32px;
   width: 90px;
   height: 25px;
 }
-.contacts h3:before {
-  position: absolute;
-  bottom: 74px;
+.contacts h2:before {
   content: "";
   display: block;
+  margin-bottom: 12px;
+  margin-left: -5px;
   width: 24px;
   height: 24px;
   background-image: url(../resources/iphone.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
 }
-.phone a {
-  margin-bottom: 30px;
-  height: 60px;
+.contacts__phone {
+  padding-top: 32px;
+  display: block;
   color: #121212;
   text-decoration: none;
   font-size: 60px;
-  font-weight: 400;
   line-height: 60px;
 }
-.mail a {
-  height: 60px;
-  width: 412px;
+.contacts__mail {
+  padding-top: 30px;
+  display: block;
+  width: 427px;
   font-size: 60px;
-  font-weight: 400;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
+  border-bottom: 2px solid #121212;
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+.section-footer {
+  padding: 60px 0 30px 0;
+  height: 229px;
+  background: #121212;
+}
+.footer__title {
+  padding-top: 87px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
+}
+.footer__nav {
+  margin: 0 auto;
+  width: 500px;
+}
+footer .nav__link {
+  margin-left: 55px;
+  color: #ffffff;
+}
+footer .nav__link:first-child {
+  margin-left: 0;
 }
