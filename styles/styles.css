@@ -6,19 +6,22 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   min-width: 1400px;
-  background: #f5f5f5;
-  letter-spacing: -0.03em;
+  background: #ffffff;
 }
 h1,
-.aboutus a {
+h2,
+h3,
+p,
+nav,
+a {
   letter-spacing: -0.03em;
 }
+
 .container {
   margin: 0 auto;
   width: 1400px;
   padding-left: 125px;
   padding-bottom: 150px;
-  box-sizing: border-box;
 }
 .nav-container {
   height: 26px;
@@ -37,7 +40,7 @@ h1,
   float: right;
 }
 .nav__link {
-  margin-left: 60px;
+  margin-left: 58px;
   font-size: 18px;
   line-height: 25px;
   color: #121212;
@@ -89,7 +92,7 @@ h2 {
 
 .text p {
   margin-bottom: 30px;
-  margin-left: 3px;
+  padding-left: 3px;
   letter-spacing: -0.03em;
   width: 1048px;
   height: 366px;
@@ -113,16 +116,17 @@ h2 {
 }
 
 .project__image {
-  margin-bottom: 15px;
+  margin-bottom: 14px;
+  height: 450px;
 }
 .project__title {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   font-size: 30px;
   line-height: 41px;
 }
 
 .project a {
-  margin-bottom: 90px;
+  margin-bottom: 91px;
   display: block;
   height: 27px;
   width: 127px;
@@ -151,7 +155,7 @@ h2 {
 .section-black {
   padding-top: 150px;
   padding-left: 125px;
-  padding-bottom: 150px;
+  padding-bottom: 90px;
   background: #121212;
 }
 .service-center {
@@ -162,18 +166,17 @@ h2 {
   margin-bottom: 34px;
   color: #ffffff;
 }
+
 .servise__name {
-  margin-bottom: 60px;
+  margin-bottom: 58px;
   margin-top: 15px;
+  padding-left: 4px;
   height: 41px;
   font-size: 30px;
   line-height: 41px;
-  text-align: left;
   color: #ffffff;
 }
-.servise__name:last-child {
-  margin-bottom: 0;
-}
+
 .example {
   background-image: url(../resources/bedroom.png);
   background-size: cover;
@@ -228,17 +231,18 @@ h2 {
   text-decoration: none;
   font-size: 60px;
   line-height: 60px;
+  letter-spacing: -0.01em;
 }
 .contacts__mail {
   padding-top: 30px;
   display: block;
-  width: 427px;
+  width: 410px;
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
   border-bottom: 2px solid #121212;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   opacity: 0.5;
 }
 .section-footer {
@@ -259,7 +263,7 @@ h2 {
   width: 460px;
 }
 footer .nav__link {
-  margin-left: 55px;
+  margin-left: 53px;
   color: #ffffff;
 }
 footer .nav__link:first-child {
