@@ -202,8 +202,7 @@ h2 {
 }
 .contacts-center {
   margin: 0 auto;
-  width: 1150px;
-  position: relative;
+  width: 1275px;
 }
 .contacts h2 {
   padding-bottom: 32px;
@@ -257,7 +256,7 @@ h2 {
 }
 .footer__nav {
   margin: 0 auto;
-  width: 500px;
+  width: 460px;
 }
 footer .nav__link {
   margin-left: 55px;
