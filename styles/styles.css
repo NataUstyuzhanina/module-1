@@ -21,7 +21,7 @@ section {
   margin: 0 auto;
   width: 1400px;
   padding-left: 125px;
-  padding-bottom: 150px;
+  padding-bottom: 149px;
 }
 .nav-container {
   margin: 0 auto;
@@ -37,7 +37,7 @@ section {
   display: block;
   padding-right: 80px;
 }
-.nav {
+nav {
   float: right;
 }
 .nav__link {
@@ -263,6 +263,7 @@ footer {
 .footer-nav {
   margin: 0 auto;
   width: 460px;
+  float: none;
 }
 footer .nav__link {
   margin-left: 53px;
